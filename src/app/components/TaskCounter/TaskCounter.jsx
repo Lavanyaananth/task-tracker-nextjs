@@ -8,7 +8,7 @@ export default function TaskCounter() {
       <span className="font-bold text-2xl">{count}</span>
       <button
         onClick={() => setCount(count + 1)}
-        className="px-3 py-1 bg-black text-white rounded text-sm"
+        className="px-3 py-1 bg-black text-white rounded text-sm cursor-pointer"
       >
         + Done{" "}
       </button>
